@@ -4,4 +4,4 @@
 # Whitelist some files
 !.gitignore
 !README.md
-!/app/design/frontend/*
+!app/
