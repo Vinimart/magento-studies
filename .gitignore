@@ -1,5 +1,7 @@
-# Ignore everything in this directory
-*
-# Except this file
+# Blacklist files/folders in same directory as the .gitignore file
+/*
+
+# Whitelist some files
 !.gitignore
-!/app/**/*.*/
+!README.md
+!/app/design/frontend/*
